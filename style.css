@@ -1,0 +1,58 @@
+/* CSS Document */
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #242634;
+}
+#app {
+  color: #80879f;
+  margin: 0 4%;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 8vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+p {
+  font-size: 2vw;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  text-indent: 20px;
+  margin: 0;
+}
+.images {
+  width: 100%;
+  padding: 0 4% 180px 4%;
+}
+.mask {
+  width: 50%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.mask:not(:first-child) {
+  margin-top: 180px;
+}
+.dx {
+  margin-left: 50%;
+}
+.img {
+  display: block;
+  width: 100%;
+}
